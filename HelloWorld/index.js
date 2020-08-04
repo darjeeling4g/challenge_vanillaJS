@@ -39,7 +39,7 @@ const daysOfWeek = [
     54,
 ];
 console.log(daysOfWeek);
-console.log(daysOfWeek[3]);
+console.log(daysOfWeek[0]);
 // Array
 
 const devInfo = {
