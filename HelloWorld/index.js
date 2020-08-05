@@ -58,4 +58,35 @@ devInfo.gender = "Female";
 console.log(devInfo.gender);
 console.log(devInfo);
 console.log(devInfo.favFood[1].fatty);
+console.log(console);
 // Object
+
+function sayHello(name, age) {
+    return `Hello ${name} you are ${age} years old.`;
+}
+const greetPretzel = sayHello("Pretzel", 24);
+console.log(greetPretzel);
+
+const calculator = {
+    plus: function (a, b) {
+        return a + b;
+    },
+    minus: function (a, b) {
+        return a - b;
+    },
+    divide: function (a, b) {
+        return a / b;
+    },
+    multiply: function (a, b) {
+        return a * b;
+    },
+    powerOf: function (a, b) {
+        return a ** b;
+    },
+};
+console.log(calculator.plus(5, 5));
+console.log(calculator.minus(5, 5));
+console.log(calculator.divide(5, 5));
+console.log(calculator.multiply(5, 5));
+console.log(calculator.powerOf(5, 5));
+//function
