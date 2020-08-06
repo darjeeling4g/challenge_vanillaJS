@@ -90,3 +90,13 @@ console.log(calculator.divide(5, 5));
 console.log(calculator.multiply(5, 5));
 console.log(calculator.powerOf(5, 5));
 //function
+
+const age = prompt("How old are you");
+if (age >= 18 && age <= 21) {
+    console.log("you can drink but you should not");
+} else if (age > 21) {
+    console.log("go ahed");
+} else {
+    console.log("too young");
+}
+//if else and or
